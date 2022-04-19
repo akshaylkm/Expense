@@ -33,7 +33,7 @@ function NewExpensesForm(props) {
             <label className=" font-bold text-2xl">TITLE</label>
             <br />
             <input
-              className=" w-96 h-9 rounded-md px-4"
+              className=" w-64 sm:w-96 h-9 rounded-md px-4"
               type="text"
               value={enterdTitle}
               placeholder="Title"
@@ -45,7 +45,7 @@ function NewExpensesForm(props) {
             <label className=" font-bold text-2xl">AMOUNT</label>
             <br />
             <input
-              className=" w-96 h-9 rounded-md px-4"
+              className=" w-64 sm:w-96 h-9 rounded-md px-4"
               type="number"
               value={enterdAmount}
               placeholder="$"
@@ -57,7 +57,7 @@ function NewExpensesForm(props) {
             <label className=" font-bold text-2xl">DATE</label>
             <br />
             <input
-              className=" w-96 h-9 rounded-md px-4"
+              className=" w-64 sm:w-96 h-9 rounded-md px-4"
               type="date"
               value={enterdDate}
               placeholder="Title"
@@ -66,7 +66,7 @@ function NewExpensesForm(props) {
             />
           </div>
           <div className=" h-36 flex justify-center items-center">
-            <button className=" bg-slate-200 w-32 h-12 rounded-xl hover:w-36 hover:h-14">ADD</button>
+            <button className=" bg-slate-200 w-32 h-12 rounded-xl sm:hover:w-36 sm:hover:h-14">ADD</button>
           </div>
         </div>
       </div>
