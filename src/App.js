@@ -31,7 +31,7 @@ function App() {
       });
   };
   return (
-    <div className=" bg-slate-200 h-auto min-h-screen p-1 sm:p-8 overflow-hidden">
+    <div className=" bg-black h-auto min-h-screen p-1 sm:p-8 overflow-hidden">
       <NewExpenses onAddExpense = {addExpenseHandler}/>
       <Expenses items={expenses}/>
     </div>

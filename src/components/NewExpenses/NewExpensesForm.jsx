@@ -27,7 +27,7 @@ function NewExpensesForm(props) {
   };
   return (
     <form className="" onSubmit={submitHandler}>
-      <div className=" h-auto bg-stone-500 rounded-2xl p-4 mb-3 shadow-2xl ">
+      <div className=" h-auto bg-red-400 rounded-2xl p-4 mb-3 shadow-2xl ">
         <div className=" flex flex-col items-center">
           <div>
             <label className=" font-bold text-2xl">TITLE</label>
@@ -66,7 +66,7 @@ function NewExpensesForm(props) {
             />
           </div>
           <div className=" h-36 flex justify-center items-center">
-            <button className=" bg-slate-200 w-32 h-12 rounded-xl sm:hover:w-36 sm:hover:h-14">ADD</button>
+            <button className=" animate-bounce bg-black text-white font-semibold w-32 h-12 rounded-xl sm:hover:w-36 sm:hover:h-14">ADD</button>
           </div>
         </div>
       </div>

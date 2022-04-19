@@ -7,7 +7,7 @@ function Expenses(props) {
     setFilteredYear(selectedYear);
   };
   return (
-    <div className=" bg-slate-900 p-4 rounded-lg shadow-2xl">
+    <div className=" bg-slate-900 p-1 rounded-lg shadow-2xl">
       <ExpenseFilter
         select={filteredYear}
         onChangeFilter={filterChangeHandler}

@@ -9,7 +9,7 @@ function ExpenseItems(props) {
         <h1 className=" pl-1">{props.title}</h1>
       </div>
       <div className="">
-        <div className=" bg-cyan-400 w-full sm:h-16 p-2 flex rounded sm:rounded-2xl items-center justify-center">
+        <div className=" bg-red-600 w-full sm:h-16 p-2 flex rounded sm:rounded-2xl items-center justify-center">
           <h1>${props.amount}</h1>
         </div>
       </div>
